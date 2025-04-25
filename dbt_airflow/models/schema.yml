@@ -1,0 +1,22 @@
+
+version: 2
+
+seeds:
+  - name: orders
+    description: "orders table"
+    columns:
+      - name: order_id
+        description: "The orders table, that has orders information"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: products
+    description: "orders table"
+    columns:
+      - name: product_id
+        description: "The products table, that has products information"
+        data_tests:
+          - unique
+          - not_null
+          

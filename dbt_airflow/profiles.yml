@@ -1,0 +1,12 @@
+dbt_airflow:
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: postgres
+      port: 5432
+      user: username
+      pass: password
+      dbname: postgresdb
+      schema: public
+  target: dev

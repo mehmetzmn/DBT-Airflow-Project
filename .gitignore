@@ -1,0 +1,7 @@
+/dbt_airflow/airflow/logs
+/dbt_airflow/airflow/dags/__pycache__
+/dbt_airflow/target/
+/dbt_airflow/dbt_packages/
+/dbt_airflow/logs/
+/logs/
+/.venv/
